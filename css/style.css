@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+}
+/* navbar section  */
+nav .navbar-brand{
+    font-size: 40px;
+    color: rgb(207, 5, 72);
+    transition: all 0-5s;
+    font-family: 'Pacifico', cursive;
+}
+.fashion{
+    font-family: 'Pacifico', cursive;
+    color: rgb(207, 5, 72);
+}
+section{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+nav .nav-item .nav-link{
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+    /* color:  rgb(207, 5, 72); */
+}
+.navbar-toggler{
+    border: 0;
+}
+.navbar-toggler:focus{
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+.button:focus:not(:focus-visible) {
+    outline: 0;
+    border: 0;
+}
+.dook{
+    background-color: green;
+}
+nav .nav-item .nav-link:hover{
+    color: rgb(207, 5, 72);
+    border-bottom: 2px solid rgb(207, 5, 72);
+    font-weight: 700;
+}
+nav i{
+    color: rgb(207, 5, 72);
+    transition: all 0.5s;
+}
+nav i:hover{
+    color: #000;
+    scale: 1.85;
+}
+/* hero section  */
+.hero{
+    background: url("../image/fashion-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.hero h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.hero p{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.hero button {
+    background-color: rgb(207, 5, 72);
+    width: 50%;
+    height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+    transition: all 0.5s;
+}
+.hero button:hover{
+    /* border:1px solid rgb(238,5,105); */
+    background-color: #fff;
+    color: #000;
+}
+.zoom-in-img .card{
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.zoom-in-img:hover  img{
+    scale: 1.2;
+}
+.btnc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: 0;
+    border: 0;
+    height: 53px;
+    width: 40%;
+    color: #000;
+    background-color: #fff;
+    cursor: all 0.5s;
+    transition: all 0.5s;
+    font-weight: 600;
+    /* padding: 10px 32px; */
+}
+.btnc:hover{
+    background-color: rgb(238,5,105);
+    color: #fff;
+}
+
+
+.shop .card-text{
+    background: #fff;
+    border: 0;
+    border-radius: 0;
+    position: absolute;
+    transform: translate(50%,50%);
+    top: 45%;
+    left: 6%;
+    padding: 6px 30px;
+}
+.shop img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+
+.product {
+    width: 100%;
+    max-width: 100%;
+    background: rgb(246, 243, 243);
+}
+.product .card-footer{
+    border: 0;
+}
+.product .card-body {
+    height: 250px;
+}
+.product .card{
+    /* margin: 4px; */
+    margin-bottom: 20px;
+    border: none;
+    text-align: center;
+}
+.discount{
+    background-color: rgb(207, 5, 72);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+
+
+.arrival h1{}
+.arrival .mix-item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+.arrival .mix-button ul li{
+    list-style: none;
+    display: inline-block;
+    /* margin-left: 35px; */
+    border-bottom:2px solid rgb(238,5,105);
+    padding: 10px;
+    margin: 10px;
+    color: rgb(238,5,105);
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mix-item{
+    position: relative;
+    transition: all 0.8s;
+}
+.mix-item:hover .btnb{
+    opacity: 1;
+}
+.btnb{
+    position: absolute;
+    background: #fff;
+    border: 0;
+    border-radius: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    opacity: 0;
+    }
+    .btnb:hover{
+        background-color: #000;
+        color: #fff;
+    }
+
+
+
+    .icon i{
+        background-color: rgba(255, 255, 255,0.20);
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .shipping i{
+        font-size: 32px;
+        color: rgb(238,5,105);
+    }
+
+
+    .footer{
+        width: 100%;
+        color: #fff;
+        padding-top: 40px;
+    }
+    .footer h5{
+        font-weight: bo600ld;
+        font-size: 28px;
+        text-transform: capitalize;
+    }
+
+    .footer ul{
+        padding: 0;
+    }
+    .footer ul a{
+        color: #fff;
+        letter-spacing: 1px;
+        line-height: 28px;
+    }
+    .footer .icon{
+        display: flex;
+        gap: 20px;
+        transition: all 0.5s;
+    }
+    .footer input{
+        height: 47px;
+        width: 60%;
+        border: 0;
+        padding-left: 20px;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .footer button {
+        color: rgb(238,5,105);
+        background-color: #fff;
+        border: 0;
+        outline: none;
+        padding: 8px 32px;
+        font-weight: 600;
+    }
+    .footer button:hover{
+        color: #000;
+    }
+    .footer .icon i:hover {
+        background: #fff;
+        color: #000;
+        scale: 1.45;
+        font-weight: bold;
+    }
+
+
+
+
+    @media (max-width: 568px) {
+        .navbar .navbar-nav{
+            height: 400px;
+            padding-top: 4em;
+            line-height: 34px;
+        }
+        .navbar  form {
+            text-align: end;
+        }
+        .navbar  form i{
+            margin-left: 20px;
+        }
+    }

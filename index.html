@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ===============bootstrap link============================= -->
+  <link rel="stylesheet" href="boots/bootstrap.min.css">
+  <!-- ===============css link============================= -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- ===============Font Icon============================= -->
+  <link rel="stylesheet" href="Font_6/css/all.min.css">
+  <!-- ===============title============================= -->
+  <title>E-Commerce Website</title>
+</head>
+
+<body>
+
+  <!-- ===============navbar============================= -->
+  <nav class="navbar navbar-light navbar-expand-lg bg-white fixed-top">
+    <div class="container p-2">
+      <a class="navbar-brand" href="#">Fashion</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars-staggered text-dark" onclick="menuBar(this)"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav text-center mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active-nav" href="#" role="button" aria-expanded="false">
+              Home
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link -toggle" href="#" id="navbar" role="button" data-bs-toggle="" aria-expanded="false">
+              Men's
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link -toggle" href="#" id="navbar" role="button" data-bs-toggle="" aria-expanded="false">
+              Women
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link -toggle" href="#" id="navbar" role="button" data-bs-toggle="" aria-expanded="false">
+              Trans
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link -toggle" href="#" id="navbar" role="button" data-bs-toggle="" aria-expanded="false">
+              Kids
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link -toggle" href="#" id="navbar" role="button" data-bs-toggle="" aria-expanded="false">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <form>
+          <ul class="d-lg-flex" style="gap: 30px;">
+            <a href="#"><i class="far fa-heart"></i></a>
+            <a href="#"><i class="fab fa-opencart"></i></a>
+            <a href="#"><i class="fa fa-user"></i></a>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===============Section Hero============================= -->
+  <section class="hero pt-5 mt-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+
+        </div>
+        <div class="col-lg-6 pt-5 mt-5">
+          <p>Winter Fasion</p>
+          <h1 class="py-4"><span class="fashion">Fashion</span> Collection <br>
+            2023
+          </h1>
+          <button>Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============== section shop ============================= -->
+  <section class="shop">
+    <div class="container-fluid">
+      <div class="row gy-3">
+        <div class="col-lg-4 zoom-in-img">
+          <div class="card">
+            <img src="image/portrait-shocked-little-girl-hat-skirt.jpg" alt="" class="img-fluid">
+           
+            <button class="btnc">Shop For More </button>
+          </div>
+        </div>
+        <div class="col-lg-4 zoom-in-img">
+          <div class="card">
+            <img src="image/redhead.jpg" alt="" class="img-fluid">
+            <button class="btnc">Shop For More </button>
+          </div>
+        </div>
+        <div class="col-lg-4 zoom-in-img">
+          <div class="card">
+            <img src="image/beautiful.jpg" alt="" class="img-fluid">
+            <button class="btnc">Shop For More </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============== section product============================= -->
+  <section class="product py-4">
+    <div class="container">
+      <h1 class="fw-bold">Our Product</h1>
+      <div class="row py-5 gy-3">
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/men-wear.png" alt="" class="img-fluid">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Men's Wear</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$89.90</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/girl-bag.png" alt="" class="img-fluid">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Women' Bag</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$29.90</span>
+            </div>
+            <div class="discount">
+              <span>30%</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/men-tr.png" alt="" class="img-fluid">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Men's Trouser</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$109.90</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/women-scream.png" alt="" class="img-fluid pt-lg-5">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Women's Cream</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$189.90</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/children-wear.png" alt="" class="pt-lg-5 img-fluid h-100">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Children's Wear</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$119.90</span>
+            </div>
+            <div class="discount">
+              <span>30%</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/women-hair.png" alt="" class="img-fluid pt-lg-5">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Women's Hair</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$89.90</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/shoe-1.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Men's Foot Wear</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$19.90</span>
+            </div>
+            <div class="discount">
+              <span>30%</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/toys.png" alt="" class="img-fluid pt-lg-5  ps-lg-4">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Girl's Toys</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$200</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/shoe=2.jpg" alt="" class="img-fluid ">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Children's Shoes</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$89.90</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card text-center">
+            <div class="card-body bg-light">
+              <img src="image/girl-bag.png" alt="" class="img-fluid">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Women' Bag</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$29.90</span>
+            </div>
+            <div class="discount">
+              <span>30%</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/fashion-polo-shirt-men.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Men's Shirt</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$109.90</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body bg-light">
+              <img src="image/brown-leather-shoes.jpg" alt="" class="img-fluid pt-lg-5">
+            </div>
+            <div class="card-footer bg-white text-center">
+              <p class="m-0 fw-bold" style="letter-spacing: 2px;">Men's Shoes</p>
+              <ul class="p-0 m-0">
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+                <i class="fa fa-star text-warning"></i>
+              </ul>
+              <span>$189.90</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============== section newArrival============================= -->
+  <section class="arrival">
+    <div class="container-fluid">
+      <div class="row justify-content-center py-5">
+        <div class="col-lg-4">
+          <h1 class="fw-bold">New Arrivals</h1>
+        </div>
+        <div class="col-lg-5 mix-button">
+          <ul class="p-0">
+            <li class="control-active" data-filter="*">All</li>
+            <li class="control" data-filter=".green">Green</li>
+            <li class="control" data-filter=".blue">Blue</li>
+            <li class="control" data-filter=".pink">Pink</li>
+            <li class="control" data-filter=".gray">Gray</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mix-it-roll gy-3">
+        <div class="col-lg-4">
+          <div class="mix-item mix green gray">
+            <img src="image/redhead.jpg" alt="" class="img-fluid">
+            <button class="btnb"><i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mix-item mix blue gray">
+            <img src="image/smiling-girl.jpeg" alt="" class="img-fluid">
+            <button class="btnb"><i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mix-item mix blue pink">
+            <img src="image/girl-on-hat.jpeg" alt="" class="img-fluid">
+            <button class="btnb"><i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mix-item mix gray pink">
+            <img src="image/african.jpg" alt="" class="img-fluid">
+            <button class="btnb"><i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mix-item mix blue green">
+            <img src="image/man=.jpeg" alt="" class="img-fluid">
+            <button class="btnb"><i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mix-item mix green">
+            <img src="image/mann.jpg" alt="" class="img-fluid">
+            <button class="btnb"><i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============== section Shipping============================= -->
+  <section class="shipping">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-4 text-center">
+          <i class="fas fa-truck"></i>
+          <h5 class="py-2">Free Shipping</h5>
+          <p>
+            Divided face for bearing the divide unto seed winged divided light forth the bearing
+          </p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <i class="fa fa-car"></i>
+          <h5 class="py-2">Free Shipping</h5>
+          <p>
+            Divided face for bearing the divide unto seed winged divided light forth the bearing
+          </p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <i class="fas fa-address-card"></i>
+          <h5 class="py-2">Free Shipping</h5>
+          <p>
+            Divided face for bearing the divide unto seed winged divided light forth the bearing
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============== section newsletter/ footer============================= -->
+  <section class="footer bg-black mb-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-2">
+          <h5 class="mb-5">Category</h5>
+          <ul>
+            <li><a href="#" class="text-white">Male</a></li>
+            <li><a href="#" class="text-white">Female</a></li>
+            <li><a href="#" class="text-white">Fashion</a></li>
+            <li><a href="#" class="text-white">Shoes</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h5 class="mb-5">Company</h5>
+          <ul class="my-3">
+            <li><a href="#" class="text-white">About</a></li>
+            <li><a href="#" class="text-white">News</a></li>
+            <li><a href="#" class="text-white">FAQ's<a></li>
+            <li><a href="#" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="mb-5">Address</h5>
+          <p class="text-white pt-2 pb-lg-4">200, Green block, NewYork <br> +234 916 172 9605</p>
+          <a href="#" class="mt-5">contact@fashion.com</a>
+        </div>
+        <div class="col-lg-5">
+          <h5 class="mb-5">NewsLetter</h5>
+         <form action="" class="input-group">
+          <input type="text" placeholder="your Email">
+          <button>Subscribe</button>
+         </form>
+          <div class="icon mt-5">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===============bootstrap script============================= -->
+  <script src="boots/bootstrap.min.js"></script>
+  <!-- ===============jquery mixitup============================= -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- ===============cdnjs mixitup============================= -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+
+  <script>
+    mixitup('.mix-it-roll');
+
+   menuBar =(icons) =>icons.classList.toggle('fa-times');
+  </script>
+</body>
+
+</html>
