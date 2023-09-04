@@ -86,7 +86,7 @@ nav i:hover{
     text-transform: uppercase;
 }
 .hero button {
-    background-color: rgb(207, 5, 72);
+    background-color: rgb(37, 29, 32);
     width: 50%;
     height: 40px;
     color: #fff;
@@ -100,6 +100,10 @@ nav i:hover{
     /* border:1px solid rgb(238,5,105); */
     background-color: #fff;
     color: #000;
+}
+.shop .zoom-in-img img{
+    object-fit: cover;
+    object-position: center;
 }
 .zoom-in-img .card{
     overflow: hidden;
@@ -281,7 +285,8 @@ nav i:hover{
         background-color: #fff;
         border: 0;
         outline: none;
-        padding: 8px 32px;
+        width: 40%;
+        /* padding: 8px 32px; */
         font-weight: 600;
     }
     .footer button:hover{
@@ -292,6 +297,10 @@ nav i:hover{
         color: #000;
         scale: 1.45;
         font-weight: bold;
+    }
+
+    .navbar-hide{
+        display: none;
     }
 
 

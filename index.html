@@ -75,8 +75,8 @@
         <div class="col-lg-6">
 
         </div>
-        <div class="col-lg-6 pt-5 mt-5">
-          <p>Winter Fasion</p>
+        <div class="col-lg-6 pt-5 mt-5 ps-lg-5">
+          <p class="pt-2 pt-lg-5 mt-lg-5">Winter Fasion</p>
           <h1 class="py-4"><span class="fashion">Fashion</span> Collection <br>
             2023
           </h1>
@@ -438,11 +438,11 @@
   </section>
 
   <!-- =============== section newsletter/ footer============================= -->
-  <section class="footer bg-black mb-0">
+  <section class="footer bg-black mb-0 py-5">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center gy-3">
         <div class="col-lg-2">
-          <h5 class="mb-5">Category</h5>
+          <h5 class="mb-lg-5 mb-3">Category</h5>
           <ul>
             <li><a href="#" class="text-white">Male</a></li>
             <li><a href="#" class="text-white">Female</a></li>
@@ -451,7 +451,7 @@
           </ul>
         </div>
         <div class="col-lg-2">
-          <h5 class="mb-5">Company</h5>
+          <h5 class="mb-lg-5 mb-3">Company</h5>
           <ul class="my-3">
             <li><a href="#" class="text-white">About</a></li>
             <li><a href="#" class="text-white">News</a></li>
@@ -460,12 +460,12 @@
           </ul>
         </div>
         <div class="col-lg-3">
-          <h5 class="mb-5">Address</h5>
+          <h5 class="mb-lg-5 mb-3">Address</h5>
           <p class="text-white pt-2 pb-lg-4">200, Green block, NewYork <br> +234 916 172 9605</p>
           <a href="#" class="mt-5">contact@fashion.com</a>
         </div>
         <div class="col-lg-5">
-          <h5 class="mb-5">NewsLetter</h5>
+          <h5 class="mb-lg-5 mb-3">NewsLetter</h5>
          <form action="" class="input-group">
           <input type="text" placeholder="your Email">
           <button>Subscribe</button>
@@ -492,6 +492,20 @@
     mixitup('.mix-it-roll');
 
    menuBar =(icons) =>icons.classList.toggle('fa-times');
+
+    window.addEventListener("scroll", scroll );
+    let lastscroll = window.scrollY;
+    function scroll() {
+      if (lastscroll > window.scrollY) {
+       let nav =document.querySelector(".navbar");
+       nav.classList.add("navbar-hide");
+      }
+      else {
+        let nav =document.querySelector(".navbar");
+       nav.classList.remove("navbar-hide");
+      }
+    }
+  
   </script>
 </body>
 
